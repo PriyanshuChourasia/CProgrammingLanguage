@@ -20,7 +20,7 @@ int main()
 	
 	printf("\n");
 	
-	for(int i=0; i<num; i++)
+	for(int i=1; i<num; i++)
 	{
 		for(int j=i-1; j>=0; j--)
 		{

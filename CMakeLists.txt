@@ -16,3 +16,4 @@ add_executable(CProgrammingGit
         singlylinkedlist/singlylinkedlist.cpp
         stack/newstack.cpp
 )
+ add_executable(ArrayStack practice/stack/arraystack.c)
