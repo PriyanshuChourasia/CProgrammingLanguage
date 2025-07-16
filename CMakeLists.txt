@@ -16,9 +16,14 @@ add_executable(CProgrammingGit
         singlylinkedlist/singlylinkedlist.cpp
         stack/newstack.cpp
 )
-add_executable(ArrayStack practice/stack/arraystack.c)
+add_executable(ArrayStack practice/stack/arraystack.c
+        structure/student.h
+        structure/student.c)
 add_executable(FibonacciSeries programs/FibonacciSeries.c)
 add_executable(DigitSum programs/DigitSum.c)
 add_executable(LinkedList linkedlistpractice/LinkedList.c)
-add_executable(StructureEX structure/Structure.c)
+add_executable(StructureEX structure/Structure.c
+        structure/student.h
+        structure/student.c
+)
 add_executable(StringExercise strings/StringExcercise.c)
