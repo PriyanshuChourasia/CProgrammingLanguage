@@ -25,5 +25,7 @@ add_executable(LinkedList linkedlistpractice/LinkedList.c)
 add_executable(StructureEX structure/Structure.c
         structure/student.h
         structure/student.c
+        structure/TimeStruct.h
+        structure/timestruct.c
 )
 add_executable(StringExercise strings/StringExcercise.c)
