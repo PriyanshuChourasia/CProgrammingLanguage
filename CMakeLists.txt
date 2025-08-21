@@ -29,3 +29,4 @@ add_executable(StructureEX structure/Structure.c
         structure/timestruct.c
 )
 add_executable(StringExercise strings/StringExcercise.c)
+add_executable(BubbleSort sorting/BubbleSort.c)
