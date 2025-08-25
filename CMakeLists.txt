@@ -30,3 +30,5 @@ add_executable(StructureEX structure/Structure.c
 )
 add_executable(StringExercise strings/StringExcercise.c)
 add_executable(BubbleSort sorting/BubbleSort.c)
+add_executable(QueueRunner  queue/CicularArray.c)
+add_executable(DynamicArray dynamicArrayInC/DynamicArray.c)
